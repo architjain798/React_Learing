@@ -1,0 +1,2 @@
+React is library becoz it can work on small potion of the app independently whereas framework comes with
+all lots of things
