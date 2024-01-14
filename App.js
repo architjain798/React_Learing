@@ -1,4 +1,13 @@
-const heading = React.createElement("h1", {}, "Hello World");
+const heading = React.createElement(
+  "h1",
+  {
+    id: "heading",
+    xyz: "abc",
+  },
+  "Hello World"
+);
+
+console.log(heading); //object
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
